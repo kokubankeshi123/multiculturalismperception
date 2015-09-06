@@ -5,7 +5,7 @@ from BeautifulSoup import *
 
 # open "canhoc_rawtext2.txt" in the writing mode
 f = open('canhoc_rawtext2.txt', 'w')
-path = 'C:/Users/Keitaro/Documents/University of Toronto/MA-Political Science/MRP/textmining/canadahansard/hoc'
+path = '~/canadahansard/hoc'
 files = os.listdir(path)
 for file in files:
     # rewrite "file" to be a full pass

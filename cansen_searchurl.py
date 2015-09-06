@@ -2,7 +2,7 @@ import os
 import re
 # open "urlresult.txt" in the appending mode
 f = open('urlresult.txt', 'a')
-path = 'C:/Users/Keitaro/Documents/University of Toronto/MA-Political Science/MRP/textmining/canadahansard/sen'
+path = '~/canadahansard/sen'
 files = os.listdir(path)
 for file in files:
     # rewrite "file" to be a full pass
